@@ -1,0 +1,14 @@
+{
+    "name": "alireza/portfolio",
+    "authors": [
+        {
+            "name": "Alireza Mak",
+            "email": "info@alirezamak.com"
+        }
+        
+    ],
+    "autoload":{
+        "classmap": ["classes"]
+    },
+    "require": {}
+}

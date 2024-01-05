@@ -1,0 +1,49 @@
+.rounded{
+    border-radius: 50%;
+}
+
+#load-screen {
+background: url(../../images/loader/header-back.png);
+position: fixed;
+z-index: 10000;
+top:0px;
+width: 100%;
+height: 1600px;
+
+}
+
+
+#loading {
+width: 500px;
+height: 500px;
+margin: 10% auto;
+background: url(../../images/loader/loader.gif);
+background-size: 40%;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+
+
+
+.light {
+  width: 10px !important;
+  height: 10px;
+  display: inline-block;
+  background-color: green;
+  border-radius: 50%;
+  animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
